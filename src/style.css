@@ -1,3 +1,59 @@
+* {box-sizing: border-box;}
+
 body {
-    background-color: red;
+    background-color:green;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;  
+    font-size: 75px;
+    justify-content: center;
+}
+
+.heart::after {
+    content: "\2665";
+    font-size: 75px;
+    float: right;
+}
+
+.heart::before {
+    content: "\2665";
+    font-size: 75px;
+}
+
+.spade::after {
+    content: "\2660";
+    font-size: 75px;
+    float: right;
+}
+
+.spade::before {
+    content: "\2660";
+    font-size: 75px;
+}
+
+.club::after {
+    content: "\2663";
+    font-size: 75px;
+    float: right;
+}
+
+.club::before {
+    content: "\2663";
+    font-size: 75px;
+}
+
+.diamond::after {
+    content: "\2666";
+    font-size: 75px;
+    float: right;
+}
+
+.diamond::before {
+    content: "\2666";
+    font-size: 75px;
 }
